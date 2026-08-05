@@ -5,7 +5,9 @@ import com.flowbank.dev.account.domain.Account
 import com.flowbank.dev.account.domain.AccountType
 import com.flowbank.dev.user.domain.CreateUserRequest
 import com.flowbank.dev.user.domain.User
+import org.springframework.stereotype.Service
 
+@Service
 class UserService(private val userRepository: UserRepository,
                   private val accountRepository: AccountRepository) {
 
