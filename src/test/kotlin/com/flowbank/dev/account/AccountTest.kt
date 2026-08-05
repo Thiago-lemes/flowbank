@@ -13,4 +13,7 @@ class AccountTest {
 
         assertNotEquals(account1.number, account2.number)
     }
+
+    @Test
+    fun `should create user and automatically open a CHECKING account`() {}
 }
